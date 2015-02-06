@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :call_records
+
   resources :users
 
   get 'static_pages/index'
